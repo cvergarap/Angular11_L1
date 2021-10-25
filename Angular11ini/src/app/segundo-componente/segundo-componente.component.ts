@@ -6,8 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./segundo-componente.component.css']
 })
 export class SegundoComponenteComponent implements OnInit {
-
-  constructor() { }
+  
+  public nombres:Array<String>;
+  
+  constructor() {  
+    this.nombres= ["Nombre1","Nombre2","Nombre3","Nombre4","Nombre5"];
+  }
 
   ngOnInit(): void {
   }
